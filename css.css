@@ -1,0 +1,326 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: green;
+
+
+    
+
+}
+
+.lien-menu {
+    flex: 1;
+    text-align: center;
+    border-color: grey;
+    border-width: 2px;
+    border-left-style: solid;
+    text-decoration: none;
+    color: whitesmoke;
+
+
+}
+#titre-menu {
+    padding: 0% 7%;
+    color: black;
+
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+video {
+ 
+    margin-left: 20px;
+}
+
+.titre-photo{
+    background: green;
+    color: white;
+    width: auto;
+    text-align: center;
+    padding: 10px;
+    opacity: 0;
+    font-size: 16px;
+}
+
+.judo:hover .titre-photo {
+    opacity: 1;
+}
+.robot:hover .titre-photo {
+    opacity: 1;
+}
+.Images{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    
+
+}
+
+img{
+    height: 300px;
+}
+
+#description-text{
+    text-align: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px;
+    padding: 0px 20px ;
+}
+
+h1{
+    
+    color: green;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.contenu {
+    margin-left: 10px; 
+    padding: 30px;
+    
+}
+
+
+
+.tableau-parcours {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,td {
+    border: 1px solid darkgray;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(63, 186, 63);
+}
+
+.Mon-evolution {
+    margin-bottom: 20px;
+    padding-left: 15px;
+    border-left: 3px solid darkgrey;
+}
+
+.Mon-evolution:hover {
+    border-color: green;
+}
+button {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(1, 88, 1);
+}
+
+#objectif {
+    color: green;
+    font: bold 22px;
+}
+
+
+
+
+.reseaux {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+
+
+
+.lien-mail{
+    color : white;
+    text-decoration: none;
+}
+
+
+#numero {
+    color: green;
+    font-size: 22px;
+}
+
+.image-reseau {
+    width: auto;
+    height: 220px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.titre-acceuil {
+    font-size: 50px;
+    
+    margin: 100px;
+}
+
+span {
+    color: rgb(35, 199, 95);
+}
+
+
+.contenu-acceuil {
+    display: flex;
+    flex-direction: row;
+
+    margin-left: 150px;
+    gap: 10%;
+    
+}
+
+
+
+.gauche h2 {
+    font-size: 40px;
+    color: gray;
+    margin-bottom: 50px;
+}
+
+.gauche p {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+#acceuil-objectif {
+    color: green;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+
+.droite img {
+    
+    border-radius: 20px;
+    box-shadow: 0 0 30px green;
+}
+
+
+
+
+.buttons-acceuil {
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    
+    margin-top: 80px;
+    
+}
+
+
+.buttons-acceuil button {
+    padding: 15px 30px;
+    font-size: 30px;
+    padding: 10px 20px;
+    background-color: white;
+    color: green;
+    border: 3px solid green;
+    border-radius: 5px;
+    margin-left: 300px;
+    
+
+}
+
+.buttons-acceuil button:hover {
+    background-color: green;
+    color: white;
+}
+
+
+
+.slider-competence {
+    margin-top: 30px;
+    padding: 20px;
+    border: 2px solid grey;
+    border-radius: 10px;
+
+}
+
+.slider-competence:hover {
+    border-color: green;
+}
+
+.boutons-slider {
+    margin-top: 20px;
+}
+
+.boutons-slider button {
+    margin-right: 10px;
+    padding: 8px 15px;
+    
+}
+
+.gras {
+    font-weight: bold;
+}
+
+.h2-qualite{
+    margin-top: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+.compétence {
+    display: flex;
+    
+    gap: 40px;
+}
+
+.carte-compétence {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    border-left: 6px solid green;
+    box-shadow: 0 0 30px gray;
+
+    
+}
+
+
+.carte-compétence:hover {
+    box-shadow: 0 0 30px green;
+}
+
+
+
